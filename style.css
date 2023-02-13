@@ -1,0 +1,58 @@
+*{
+    
+    color: black;
+    font-size: 25px;
+    margin: 9px;
+    
+}
+.name{
+    margin-left: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+    
+}
+.dob{
+    margin-left: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.h{
+    font-size: 60px;
+    
+}
+.red{
+    font-size: 35px;
+    text-align: center;
+   
+}
+.dept{
+    margin-left: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.year{
+    margin-left: 0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.gender{
+    margin:0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.lang{
+    margin:0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.email{
+    margin:0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.submit{
+    padding: 10px;
+    text-align: center;
+}
+.reg{
+    
+    float: right;
+    margin-left: 70%;
+    bottom: 50%;
+    margin:0%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
