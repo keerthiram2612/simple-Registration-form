@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Registration form</title>
 </head>
-
+    <div class="image">
+        
+    </div>
     <div class="h"></div>
         <h1 class="red">Registration Form</h1>
     <form name="form reg">
@@ -51,13 +53,26 @@
         <div class="email">
         <td>Email:</td>
         <input type="label" value=""><br>
-       
-
-        <div class="submit">
-        <input type="submit" value="Submit"><br>
+       <label class="pass">Password:</label>
+            <input type="password"/><br>
+            <label class="choice">Select a choice:</label><br>
+            <select>
+                <option>Java</option>
+                <option>Blockchain</option>
+                <option>Html</option>
+            </select><br>
+           <label class="file">Upload your resume:</label>
+           <input type="file"><br>
+            
+            
+            <div class="btn-submit">
+            <button className="btn-submit">Submit</button>
     </div>
+   
         <link rel="stylesheet" href="style.css">
-        
+         
+          
+    </div>
 
     </form>
 </body>

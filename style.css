@@ -3,6 +3,15 @@
     color: black;
     font-size: 25px;
     margin: 9px;
+    justify-content: center;
+    background: url("https://images.unsplash.com/photo-1493723843671-1d655e66ac1c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmVnaXN0cmF0aW9uJTIwdGVtcGxhdGV8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    
+   
+
+    
     
 }
 .name{
@@ -22,7 +31,8 @@
 .red{
     font-size: 35px;
     text-align: center;
-   
+    font-style: italic;
+    
 }
 .dept{
     margin-left: 0%;
@@ -44,9 +54,10 @@
     margin:0%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.submit{
+.btn-submit{
     padding: 10px;
     text-align: center;
+    
 }
 .reg{
     
@@ -56,3 +67,38 @@
     margin:0%;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
   }
+.image{
+   
+}
+.pass{
+    margin: 0%;
+}
+.file{
+    margin:0%;
+}
+.choice{
+    margin:0%;
+}
+.btn-submit
+              {
+        background-image: linear-gradient(to right, #4CB8C4 0%, #3CD3AD  51%, #4CB8C4  100%);
+        margin: 10px;
+        padding: 0px 0px;
+        text-align: center;
+        text-transform: uppercase;
+        transition: 0.5s;
+        background-size: 200% auto;
+        color: white;            
+        box-shadow: 0 0 20px #eee;
+        border-radius: 10px;
+        display: block;
+        margin-right: 550px;
+        margin-left: 550px;
+      }
+
+      .btn-submit:hover {
+        background-position: right center; /* change the direction of the change here */
+        color: #fff;
+        text-decoration: none;
+      }
+     
